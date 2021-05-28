@@ -3,11 +3,11 @@ import "./App.css";
 import CourseGoalList from "./components/CourseGoals/CourseGoalList/CourseGoalList";
 import CourseInput from "./components/CourseGoals/CourseInput/CourseInput";
 
-
 const App: React.FC = () => {
   const [courseGoals, setCourseGoals] = useState([
-    { text: "Do all exercises!", id: "g1" },
-    { text: "Finish the course!", id: "g2" },
+    { text: "Do all tasks assigned to me!", id: "g1" },
+    { text: "Finish the dishes!", id: "g2" },
+    { text: "Do some exercise!", id: "g3" },
   ]);
 
   const addGoalHandler = (enteredText: string) => {
